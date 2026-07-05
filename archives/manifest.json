@@ -1,0 +1,23 @@
+{
+  "hard_limit_bytes": 200000000,
+  "parts": [
+    {
+      "file": "Market-Data_part-01.zip",
+      "bytes": 197683706,
+      "tracked_files": 802,
+      "sha256": "0c5ebbeed4e3ca52fe77bb42686809dd56c2ecf69a13ddf673c67ad46cc386e5"
+    },
+    {
+      "file": "Market-Data_part-02.zip",
+      "bytes": 197794304,
+      "tracked_files": 759,
+      "sha256": "6b5ad71812bb5780972b8dadf5d4e65ab0fca5db3b663f2862ba2b498966941a"
+    },
+    {
+      "file": "Market-Data_part-03.zip",
+      "bytes": 152715926,
+      "tracked_files": 621,
+      "sha256": "eb2a438608df873856614491d0de09e47c8ce46bfb5c7d748c127e1187cb9fca"
+    }
+  ]
+}
