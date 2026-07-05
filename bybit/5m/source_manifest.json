@@ -1,0 +1,158 @@
+{
+  "source": "Bybit V5 public REST API",
+  "quote_coin": "USDT",
+  "interval": "5 minutes",
+  "generated_at_utc": "2026-07-04T16:48:22Z",
+  "bases_requested": [
+    "BTC",
+    "ETH",
+    "BNB",
+    "ADA",
+    "XRP",
+    "DOGE",
+    "SOL",
+    "DOT",
+    "LTC",
+    "SUI",
+    "ARB",
+    "POL",
+    "OP"
+  ],
+  "definitions": {
+    "basis": "perpetual trade close - index close",
+    "basis_pct": "basis / index close",
+    "funding_rate": "actual settlement rate at its native funding interval"
+  },
+  "results": [
+    {
+      "base": "BTC",
+      "symbol": "BTCUSDT",
+      "files": {
+        "BTCUSDT_spot_5m_ohlcv.csv": 524456,
+        "BTCUSDT_perpetual_5m.csv": 660203,
+        "BTCUSDT_funding_rate.csv": 6877
+      },
+      "notes": []
+    },
+    {
+      "base": "ETH",
+      "symbol": "ETHUSDT",
+      "files": {
+        "ETHUSDT_spot_5m_ohlcv.csv": 524456,
+        "ETHUSDT_perpetual_5m.csv": 558058,
+        "ETHUSDT_funding_rate.csv": 5814
+      },
+      "notes": []
+    },
+    {
+      "base": "BNB",
+      "symbol": "BNBUSDT",
+      "files": {
+        "BNBUSDT_spot_5m_ohlcv.csv": 453054,
+        "BNBUSDT_perpetual_5m.csv": 527442,
+        "BNBUSDT_funding_rate.csv": 5495
+      },
+      "notes": []
+    },
+    {
+      "base": "ADA",
+      "symbol": "ADAUSDT",
+      "files": {
+        "ADAUSDT_spot_5m_ohlcv.csv": 493406,
+        "ADAUSDT_perpetual_5m.csv": 557194,
+        "ADAUSDT_funding_rate.csv": 5804
+      },
+      "notes": []
+    },
+    {
+      "base": "XRP",
+      "symbol": "XRPUSDT",
+      "files": {
+        "XRPUSDT_spot_5m_ohlcv.csv": 520257,
+        "XRPUSDT_perpetual_5m.csv": 540951,
+        "XRPUSDT_funding_rate.csv": 5635
+      },
+      "notes": []
+    },
+    {
+      "base": "DOGE",
+      "symbol": "DOGEUSDT",
+      "files": {
+        "DOGEUSDT_spot_5m_ohlcv.csv": 508101,
+        "DOGEUSDT_perpetual_5m.csv": 535177,
+        "DOGEUSDT_funding_rate.csv": 5575
+      },
+      "notes": []
+    },
+    {
+      "base": "SOL",
+      "symbol": "SOLUSDT",
+      "files": {
+        "SOLUSDT_spot_5m_ohlcv.csv": 493407,
+        "SOLUSDT_perpetual_5m.csv": 496426,
+        "SOLUSDT_funding_rate.csv": 5532
+      },
+      "notes": []
+    },
+    {
+      "base": "DOT",
+      "symbol": "DOTUSDT",
+      "files": {
+        "DOTUSDT_spot_5m_ohlcv.csv": 508101,
+        "DOTUSDT_perpetual_5m.csv": 557079,
+        "DOTUSDT_funding_rate.csv": 5803
+      },
+      "notes": []
+    },
+    {
+      "base": "LTC",
+      "symbol": "LTCUSDT",
+      "files": {
+        "LTCUSDT_spot_5m_ohlcv.csv": 508102,
+        "LTCUSDT_perpetual_5m.csv": 600302,
+        "LTCUSDT_funding_rate.csv": 6248
+      },
+      "notes": []
+    },
+    {
+      "base": "SUI",
+      "symbol": "SUIUSDT",
+      "files": {
+        "SUIUSDT_spot_5m_ohlcv.csv": 333562,
+        "SUIUSDT_perpetual_5m.csv": 333548,
+        "SUIUSDT_funding_rate.csv": 3476
+      },
+      "notes": []
+    },
+    {
+      "base": "ARB",
+      "symbol": "ARBUSDT",
+      "files": {
+        "ARBUSDT_spot_5m_ohlcv.csv": 345354,
+        "ARBUSDT_perpetual_5m.csv": 345341,
+        "ARBUSDT_funding_rate.csv": 3598
+      },
+      "notes": []
+    },
+    {
+      "base": "POL",
+      "symbol": "POLUSDT",
+      "files": {
+        "POLUSDT_spot_5m_ohlcv.csv": 283156,
+        "POLUSDT_perpetual_5m.csv": 192193,
+        "POLUSDT_funding_rate.csv": 3608
+      },
+      "notes": []
+    },
+    {
+      "base": "OP",
+      "symbol": "OPUSDT",
+      "files": {
+        "OPUSDT_spot_5m_ohlcv.csv": 430570,
+        "OPUSDT_perpetual_5m.csv": 430371,
+        "OPUSDT_funding_rate.csv": 4483
+      },
+      "notes": []
+    }
+  ]
+}
