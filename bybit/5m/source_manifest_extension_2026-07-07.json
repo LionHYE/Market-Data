@@ -1,0 +1,405 @@
+{
+  "source": "Bybit V5 public REST API",
+  "quote_coin": "USDT",
+  "generated_at_utc": "2026-07-06T23:49:04Z",
+  "bases_requested_for_5m": [
+    "AVAX",
+    "LINK",
+    "TRX",
+    "BCH",
+    "ETC",
+    "XLM",
+    "ATOM",
+    "NEAR",
+    "APT",
+    "TON",
+    "SHIB",
+    "PEPE",
+    "WIF",
+    "BONK",
+    "FLOKI",
+    "UNI",
+    "AAVE",
+    "CRV",
+    "LDO",
+    "SEI",
+    "TIA",
+    "INJ",
+    "RENDER",
+    "FET",
+    "PAXG"
+  ],
+  "bases_requested_for_1h_open_interest": [
+    "AAVE",
+    "APT",
+    "ATOM",
+    "AVAX",
+    "BCH",
+    "BONK",
+    "BTC",
+    "CRV",
+    "ETC",
+    "ETH",
+    "FET",
+    "FLOKI",
+    "INJ",
+    "LDO",
+    "LINK",
+    "NEAR",
+    "PAXG",
+    "PEPE",
+    "RENDER",
+    "SEI",
+    "SHIB",
+    "SOL",
+    "TIA",
+    "TON",
+    "TRX",
+    "UNI",
+    "WIF",
+    "XLM"
+  ],
+  "definitions": {
+    "basis": "perpetual trade close - index close",
+    "basis_pct": "basis / index close",
+    "funding_rate": "actual settlement rate at its native funding interval",
+    "open_interest": "Bybit linear contract open interest, 1h interval"
+  },
+  "linear_symbol_overrides": {
+    "SHIB": "SHIB1000USDT",
+    "PEPE": "1000PEPEUSDT",
+    "BONK": "1000BONKUSDT",
+    "FLOKI": "1000FLOKIUSDT"
+  },
+  "results": [
+    {
+      "base": "AAVE",
+      "spot_symbol": "AAVEUSDT",
+      "linear_symbol": "AAVEUSDT",
+      "files": {
+        "AAVEUSDT_spot_5m_ohlcv.csv": 502090,
+        "AAVEUSDT_perpetual_5m.csv": 541613,
+        "AAVEUSDT_funding_rate.csv": 5641,
+        "AAVEUSDT_open_interest_1h.csv": 45132
+      },
+      "notes": []
+    },
+    {
+      "base": "APT",
+      "spot_symbol": "APTUSDT",
+      "linear_symbol": "APTUSDT",
+      "files": {
+        "APTUSDT_spot_5m_ohlcv.csv": 390802,
+        "APTUSDT_perpetual_5m.csv": 390796,
+        "APTUSDT_funding_rate.csv": 4071,
+        "APTUSDT_open_interest_1h.csv": 32566
+      },
+      "notes": []
+    },
+    {
+      "base": "ATOM",
+      "spot_symbol": "ATOMUSDT",
+      "linear_symbol": "ATOMUSDT",
+      "files": {
+        "ATOMUSDT_spot_5m_ohlcv.csv": 487708,
+        "ATOMUSDT_perpetual_5m.csv": 498200,
+        "ATOMUSDT_funding_rate.csv": 5189,
+        "ATOMUSDT_open_interest_1h.csv": 41512
+      },
+      "notes": []
+    },
+    {
+      "base": "AVAX",
+      "spot_symbol": "AVAXUSDT",
+      "linear_symbol": "AVAXUSDT",
+      "files": {
+        "AVAXUSDT_spot_5m_ohlcv.csv": 487722,
+        "AVAXUSDT_perpetual_5m.csv": 505656,
+        "AVAXUSDT_funding_rate.csv": 5266,
+        "AVAXUSDT_open_interest_1h.csv": 42134
+      },
+      "notes": []
+    },
+    {
+      "base": "BCH",
+      "spot_symbol": "BCHUSDT",
+      "linear_symbol": "BCHUSDT",
+      "files": {
+        "BCHUSDT_spot_5m_ohlcv.csv": 497286,
+        "BCHUSDT_perpetual_5m.csv": 584926,
+        "BCHUSDT_funding_rate.csv": 6092,
+        "BCHUSDT_open_interest_1h.csv": 48736
+      },
+      "notes": []
+    },
+    {
+      "base": "BONK",
+      "spot_symbol": "BONKUSDT",
+      "linear_symbol": "1000BONKUSDT",
+      "files": {
+        "BONKUSDT_spot_5m_ohlcv.csv": 368506,
+        "1000BONKUSDT_perpetual_5m.csv": 367962,
+        "1000BONKUSDT_funding_rate.csv": 5446,
+        "1000BONKUSDT_open_interest_1h.csv": 30662
+      },
+      "notes": []
+    },
+    {
+      "base": "BTC",
+      "spot_symbol": "BTCUSDT",
+      "linear_symbol": "BTCUSDT",
+      "files": {
+        "BTCUSDT_open_interest_1h.csv": 51904
+      },
+      "notes": []
+    },
+    {
+      "base": "CRV",
+      "spot_symbol": "CRVUSDT",
+      "linear_symbol": "CRVUSDT",
+      "files": {
+        "CRVUSDT_spot_5m_ohlcv.csv": 495562,
+        "CRVUSDT_perpetual_5m.csv": 494120,
+        "CRVUSDT_funding_rate.csv": 5147,
+        "CRVUSDT_open_interest_1h.csv": 41176
+      },
+      "notes": []
+    },
+    {
+      "base": "ETC",
+      "spot_symbol": "ETCUSDT",
+      "linear_symbol": "ETCUSDT",
+      "files": {
+        "ETCUSDT_spot_5m_ohlcv.csv": 414586,
+        "ETCUSDT_perpetual_5m.csv": 528105,
+        "ETCUSDT_funding_rate.csv": 5501,
+        "ETCUSDT_open_interest_1h.csv": 44007
+      },
+      "notes": []
+    },
+    {
+      "base": "ETH",
+      "spot_symbol": "ETHUSDT",
+      "linear_symbol": "ETHUSDT",
+      "files": {
+        "ETHUSDT_open_interest_1h.csv": 46560
+      },
+      "notes": []
+    },
+    {
+      "base": "FET",
+      "spot_symbol": "FETUSDT",
+      "linear_symbol": "FETUSDT",
+      "files": {
+        "FETUSDT_spot_5m_ohlcv.csv": 290182,
+        "FETUSDT_perpetual_5m.csv": 0,
+        "FETUSDT_funding_rate.csv": 1454,
+        "FETUSDT_open_interest_1h.csv": 0
+      },
+      "notes": []
+    },
+    {
+      "base": "FLOKI",
+      "spot_symbol": "FLOKIUSDT",
+      "linear_symbol": "1000FLOKIUSDT",
+      "files": {
+        "FLOKIUSDT_spot_5m_ohlcv.csv": 415150,
+        "1000FLOKIUSDT_perpetual_5m.csv": 353825,
+        "1000FLOKIUSDT_funding_rate.csv": 3685,
+        "1000FLOKIUSDT_open_interest_1h.csv": 29484
+      },
+      "notes": []
+    },
+    {
+      "base": "INJ",
+      "spot_symbol": "INJUSDT",
+      "linear_symbol": "INJUSDT",
+      "files": {
+        "INJUSDT_spot_5m_ohlcv.csv": 400198,
+        "INJUSDT_perpetual_5m.csv": 408869,
+        "INJUSDT_funding_rate.csv": 4409,
+        "INJUSDT_open_interest_1h.csv": 34072
+      },
+      "notes": []
+    },
+    {
+      "base": "LDO",
+      "spot_symbol": "LDOUSDT",
+      "linear_symbol": "LDOUSDT",
+      "files": {
+        "LDOUSDT_spot_5m_ohlcv.csv": 481668,
+        "LDOUSDT_perpetual_5m.csv": 416658,
+        "LDOUSDT_funding_rate.csv": 4340,
+        "LDOUSDT_open_interest_1h.csv": 34720
+      },
+      "notes": []
+    },
+    {
+      "base": "LINK",
+      "spot_symbol": "LINKUSDT",
+      "linear_symbol": "LINKUSDT",
+      "files": {
+        "LINKUSDT_spot_5m_ohlcv.csv": 502356,
+        "LINKUSDT_perpetual_5m.csv": 600962,
+        "LINKUSDT_funding_rate.csv": 6254,
+        "LINKUSDT_open_interest_1h.csv": 50031
+      },
+      "notes": []
+    },
+    {
+      "base": "NEAR",
+      "spot_symbol": "NEARUSDT",
+      "linear_symbol": "NEARUSDT",
+      "files": {
+        "NEARUSDT_spot_5m_ohlcv.csv": 453418,
+        "NEARUSDT_perpetual_5m.csv": 498200,
+        "NEARUSDT_funding_rate.csv": 5189,
+        "NEARUSDT_open_interest_1h.csv": 41512
+      },
+      "notes": []
+    },
+    {
+      "base": "PAXG",
+      "spot_symbol": "PAXGUSDT",
+      "linear_symbol": "PAXGUSDT",
+      "files": {
+        "PAXGUSDT_perpetual_5m.csv": 453502,
+        "PAXGUSDT_funding_rate.csv": 6078,
+        "PAXGUSDT_open_interest_1h.csv": 37790
+      },
+      "notes": [
+        "spot instrument unavailable"
+      ]
+    },
+    {
+      "base": "PEPE",
+      "spot_symbol": "PEPEUSDT",
+      "linear_symbol": "1000PEPEUSDT",
+      "files": {
+        "PEPEUSDT_spot_5m_ohlcv.csv": 333406,
+        "1000PEPEUSDT_perpetual_5m.csv": 334237,
+        "1000PEPEUSDT_funding_rate.csv": 3481,
+        "1000PEPEUSDT_open_interest_1h.csv": 27852
+      },
+      "notes": []
+    },
+    {
+      "base": "RENDER",
+      "spot_symbol": "RENDERUSDT",
+      "linear_symbol": "RENDERUSDT",
+      "files": {
+        "RENDERUSDT_spot_5m_ohlcv.csv": 203230,
+        "RENDERUSDT_perpetual_5m.csv": 204662,
+        "RENDERUSDT_funding_rate.csv": 3744,
+        "RENDERUSDT_open_interest_1h.csv": 17055
+      },
+      "notes": []
+    },
+    {
+      "base": "SEI",
+      "spot_symbol": "SEIUSDT",
+      "linear_symbol": "SEIUSDT",
+      "files": {
+        "SEIUSDT_spot_5m_ohlcv.csv": 304270,
+        "SEIUSDT_perpetual_5m.csv": 304084,
+        "SEIUSDT_funding_rate.csv": 3167,
+        "SEIUSDT_open_interest_1h.csv": 25339
+      },
+      "notes": []
+    },
+    {
+      "base": "SHIB",
+      "spot_symbol": "SHIBUSDT",
+      "linear_symbol": "SHIB1000USDT",
+      "files": {
+        "SHIBUSDT_spot_5m_ohlcv.csv": 481735,
+        "SHIB1000USDT_perpetual_5m.csv": 495561,
+        "SHIB1000USDT_funding_rate.csv": 5162,
+        "SHIB1000USDT_open_interest_1h.csv": 41173
+      },
+      "notes": []
+    },
+    {
+      "base": "SOL",
+      "spot_symbol": "SOLUSDT",
+      "linear_symbol": "SOLUSDT",
+      "files": {
+        "SOLUSDT_open_interest_1h.csv": 41424
+      },
+      "notes": []
+    },
+    {
+      "base": "TIA",
+      "spot_symbol": "TIAUSDT",
+      "linear_symbol": "TIAUSDT",
+      "files": {
+        "TIAUSDT_spot_5m_ohlcv.csv": 282041,
+        "TIAUSDT_perpetual_5m.csv": 282035,
+        "TIAUSDT_funding_rate.csv": 4550,
+        "TIAUSDT_open_interest_1h.csv": 23502
+      },
+      "notes": []
+    },
+    {
+      "base": "TON",
+      "spot_symbol": "TONUSDT",
+      "linear_symbol": "TONUSDT",
+      "files": {
+        "TONUSDT_perpetual_5m.csv": 0,
+        "TONUSDT_funding_rate.csv": 4606,
+        "TONUSDT_open_interest_1h.csv": 0
+      },
+      "notes": [
+        "spot instrument unavailable"
+      ]
+    },
+    {
+      "base": "TRX",
+      "spot_symbol": "TRXUSDT",
+      "linear_symbol": "TRXUSDT",
+      "files": {
+        "TRXUSDT_spot_5m_ohlcv.csv": 458614,
+        "TRXUSDT_perpetual_5m.csv": 509888,
+        "TRXUSDT_funding_rate.csv": 5311,
+        "TRXUSDT_open_interest_1h.csv": 42828
+      },
+      "notes": []
+    },
+    {
+      "base": "UNI",
+      "spot_symbol": "UNIUSDT",
+      "linear_symbol": "UNIUSDT",
+      "files": {
+        "UNIUSDT_spot_5m_ohlcv.csv": 502356,
+        "UNIUSDT_perpetual_5m.csv": 483838,
+        "UNIUSDT_funding_rate.csv": 5040,
+        "UNIUSDT_open_interest_1h.csv": 40320
+      },
+      "notes": []
+    },
+    {
+      "base": "WIF",
+      "spot_symbol": "WIFUSDT",
+      "linear_symbol": "WIFUSDT",
+      "files": {
+        "WIFUSDT_spot_5m_ohlcv.csv": 229990,
+        "WIFUSDT_perpetual_5m.csv": 261358,
+        "WIFUSDT_funding_rate.csv": 4335,
+        "WIFUSDT_open_interest_1h.csv": 21779
+      },
+      "notes": []
+    },
+    {
+      "base": "XLM",
+      "spot_symbol": "XLMUSDT",
+      "linear_symbol": "XLMUSDT",
+      "files": {
+        "XLMUSDT_spot_5m_ohlcv.csv": 507096,
+        "XLMUSDT_perpetual_5m.csv": 509971,
+        "XLMUSDT_funding_rate.csv": 5311,
+        "XLMUSDT_open_interest_1h.csv": 42828
+      },
+      "notes": []
+    }
+  ]
+}

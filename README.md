@@ -24,6 +24,23 @@ bybit/5m/{SYMBOL}/{spot|perpetual|funding}/{YYYY}/{MM}.csv
 timestamp coverage. `bybit/5m/split_summary.json` contains aggregate validation
 counts.
 
+## Bybit 1-hour open interest
+
+Path layout:
+
+```text
+bybit/1h/{SYMBOL}/open_interest/{YYYY}/{MM}.csv
+```
+
+- Quote currency: USDT
+- Contract type: USDT linear perpetuals
+- Timestamps: UTC
+- Open interest source: Bybit public V5 open-interest endpoint
+- Coverage: available for the 2026-07-07 extension set, including BTC/ETH/SOL
+  and the requested new perpetual symbols where Bybit returned OI rows
+
+`bybit/1h/file_index.csv` lists every monthly OI file.
+
 Basis definitions:
 
 ```text
