@@ -3,21 +3,45 @@
   "parts": [
     {
       "file": "Market-Data_part-01.zip",
-      "bytes": 197683706,
-      "tracked_files": 802,
-      "sha256": "0c5ebbeed4e3ca52fe77bb42686809dd56c2ecf69a13ddf673c67ad46cc386e5"
+      "bytes": 197878899,
+      "tracked_files": 2132,
+      "sha256": "a8b7ab3743d7ffef3d15b6632ff8460147cb23db15ab6debd4d2bda76b0e327d"
     },
     {
       "file": "Market-Data_part-02.zip",
-      "bytes": 197794304,
-      "tracked_files": 759,
-      "sha256": "6b5ad71812bb5780972b8dadf5d4e65ab0fca5db3b663f2862ba2b498966941a"
+      "bytes": 197768874,
+      "tracked_files": 821,
+      "sha256": "53a6818eaf1742ad8d1d527ce0173579c7f1f826f1e4e4db25ed52e373214144"
     },
     {
       "file": "Market-Data_part-03.zip",
-      "bytes": 152715926,
-      "tracked_files": 621,
-      "sha256": "eb2a438608df873856614491d0de09e47c8ce46bfb5c7d748c127e1187cb9fca"
+      "bytes": 197577474,
+      "tracked_files": 782,
+      "sha256": "36189bea1198616bd386c6aa301e2475a0b56b9a6a6010efad716643ed676abc"
+    },
+    {
+      "file": "Market-Data_part-04.zip",
+      "bytes": 197816651,
+      "tracked_files": 883,
+      "sha256": "ca35f0420d6be5ef8370935617effca8e212381d0df351ceb95f580a167d9410"
+    },
+    {
+      "file": "Market-Data_part-05.zip",
+      "bytes": 198005485,
+      "tracked_files": 818,
+      "sha256": "b403d5b356193d48dc2d75e1d192f5e04c4a9696fa7fea23b643ae6ad42f53e6"
+    },
+    {
+      "file": "Market-Data_part-06.zip",
+      "bytes": 197782151,
+      "tracked_files": 776,
+      "sha256": "5ad538b713a4d7ef7dbdbd5adf589976ad59f7336f9a297cfd52296eebcdd49a"
+    },
+    {
+      "file": "Market-Data_part-07.zip",
+      "bytes": 192983349,
+      "tracked_files": 868,
+      "sha256": "a4cfc077fcf35a506f96b440c583fe129d31282b04b8ad89bb22e7686e2e2146"
     }
   ]
 }
